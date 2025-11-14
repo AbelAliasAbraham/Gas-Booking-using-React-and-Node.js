@@ -1,0 +1,13 @@
+/* src/index.css */
+
+/* 1. Tailwind Directives - ESSENTIAL */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 2. CUSTOM STYLES (Your custom variables and classes go here) */
+:root {
+  --color-gradient-primary: linear-gradient(135deg, #007bff 0%, #00c4b4 100%);
+}
+
+/* ... the rest of your custom and cleanup CSS ... */
